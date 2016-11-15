@@ -1,0 +1,53 @@
+#Newest{
+    padding: 30px 30px 30px 30px;
+    border-style: inset;
+    background-color: white;
+    height: 30%;
+    overflow: scroll;
+
+}
+
+#RecentU{
+    padding: 30px 30px 30px 30px;
+    border-style: inset;
+    background-color: white;
+    height: 30%;
+    overflow: scroll;
+
+}
+
+#RecentD{
+    padding: 30px 30px 30px 30px;
+    border-style: inset;
+    background-color: white;
+    height: 30%;
+    overflow: scroll;
+
+}
+
+#Content{
+    height: 100%;
+    width: 100%;
+
+
+}
+#Content p{
+    text-align: center;
+    color: #999999;
+
+}
+
+#container{
+    margin-left: 10%;
+    height:100%
+
+}
+
+#wrapper{
+    margin-left: 10%;
+}
+body{
+    position: relative;
+    right: 5%;
+}
+

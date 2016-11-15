@@ -1,0 +1,14 @@
+.setWidthShort {
+     max-width: 150px;
+ }
+.setWidthLong {
+    max-width: 300px;
+}
+.concat div {
+    overflow: hidden;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis ;
+    white-space: pre;
+    width: inherit;
+}

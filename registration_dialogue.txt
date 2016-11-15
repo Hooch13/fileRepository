@@ -1,0 +1,48 @@
+U = User
+S = System
+D = Database
+
+Success case:
+U: I would like to register
+S: Okay. What is your email?
+U: ->
+S: What is your password?
+U: ->
+S: Is your password between 6 and 30 characters long?
+U: Yes.
+(ask for security question dialogue stuff)
+S: Let me try to create your account.
+S: *tries to insert the account row into the tUser table*
+S: Database, was there an error?
+D: Nope.
+S: Okay. User, your account has been successfully created.
+U: Thank you!
+
+Fail password:
+U: I would like to register
+S: Okay. What is your email?
+U: ->
+S: What is your password?
+U: ->
+S: Is your password between 6 and 30 characters long?
+U: No.
+S: WHAT??? Your password is INVALID! DISHONOR TO YOUR FAMIRY!
+U: NOOOOOOOO
+
+Fail email:
+U: I would like to register
+S: Okay. What is your email?
+U: ->
+S: What is your password?
+U: ->
+S: Is your password between 6 and 30 characters long?
+U: Yes.
+(ask for security question dialogue stuff)
+S: Let me try to create your account.
+S: *tries to insert the account row into the tUser table*
+S: Database, was there an error?
+D: YES
+S: What was the error?
+D: DUPLICATE ON EMAIL
+S: OH CRAP. User, this email already exists.
+U: Awww man.

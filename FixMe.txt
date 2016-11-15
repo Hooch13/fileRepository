@@ -1,0 +1,28 @@
+-Dashboard, Fixed the tables to load ALL RECENT 25 and bottom table loads only recent 25 from the current user. Last names need to be turned into links to visit that user profile.
+
+-Upload still accepts no file, nothing selected, and throws every error after (note zip, no file, no title). Subject/Specialty are supposed to be mandatory. As is title. Focus subject also mandatory. Everything else optional.   -- [Ryan]: This is fixed. The fix is: adding required to the select tags of the fields are required.
+
+-Upload will accept a partially filled out assignment (i.e you select some but not all of the options) and it DOES put it in the DB as it's supposed to, but we don't have a handler for the errors it throws on the next page. We need those to go away. Not a function issue, just errors the user doesn't need to see. 
+
+-Profile page, we have one but no one can visit, it's only used to show uploader information in the download page. See the first line in this text.  <-- [Ryan]: This has been completed. Users can edit Profile, view other profiles, and see the that particular's user uploads to the site.   Added those Options to the Nav Menu, View, Edit, and Browse.
+
+-SearchResults needs to be formatted. If you leave it empty it returns everything but we need it at least formatted. (table..there is an example on the dashboard)
+
+-There needs to be a read only account but there is not one. 
+
+----VALIDATION across the board. 
+
+--- COMMENTS across the board
+
+EXTRA low priority: UC colors, should just be a matter of editing the CSS we used (bootstrap file)
+
+**** If you find or can think of anything else add it here. Make notes if you take on a task. Format the issue and what you did as your own discretion ***
+
+ 
+
+
+MAJOR GOALS:
+    Make site feel UC Oriented
+    Ensure validation on Upload page
+    Make the search results better looking
+    Fix admin page

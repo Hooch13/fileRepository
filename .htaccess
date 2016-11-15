@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^capstone\.masterzcreations\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.capstone\.masterzcreations\.com$
+RewriteRule ^/?$ "http\:\/\/masterzcreations\.com\/college\/capstone\/" [R=301,L]
+

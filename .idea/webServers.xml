@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="529e3ea2-5c10-41b9-a67e-ca799b9e0ce8" name="ryan server" url="http://masterzcreations.com">
+        <fileTransfer host="masterzcreations.com" port="21" password="dfd9dfdadfd8dfc3dfc4dfcddf98df9adf9bdf9c" username="zach@masterzcreations.com">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

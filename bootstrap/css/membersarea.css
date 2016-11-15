@@ -1,0 +1,132 @@
+/*
+	This CSS goes to main members page, which displays all the users in the database
+*/
+.UserBlock{
+	min-height: 350px;
+	min-width: 250px;
+	float:left;
+	margin:5px;
+	margin-bottom: 15px;
+	border: 3px solid black; 
+	border-radius: 25px;
+	padding: 5px 10px 5px 5px;
+	background-color: black; 
+
+}
+.userInfoBoxes{
+	border: medium solid black; 
+	background-color: white; 
+	color: black; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	font-weight: bold; 
+	font-size: medium; 
+	 max-width: 300px; width: 100%; min-height: 25px;
+	padding: 5px;
+	margin-bottom:2px;
+	border-radius: 15px;
+	
+	
+}
+
+.userInfoProfileButton, a:hover{ text-decoration:none; color: white;}
+.UserImage {
+	border-radius: 50px;
+	width: 150px; height: 150px; background-color: black; border: 3px solid red; 
+	margin-left: auto;margin-right:auto; display: block;}
+.UserInfoLabel{
+	height: 100%;
+	vertical-align: middle;
+	position: relative;
+	
+	/*border-right: 3px solid red;*/
+	padding: 10px;
+}
+.UserInfoUploads{
+	text-align:right;
+	
+}
+
+/*Special Button to know a user can click on the button*/
+.userInfoProfileButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff0808), color-stop(1, #800b00) );
+	background:-moz-linear-gradient( center top, #ff0808 5%, #800b00 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0808', endColorstr='#800b00'); */
+	background-color:#FFF;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #FFF;
+	display:inline-block;
+	color:#000;
+	font-family:Verdana;
+	font-size:22px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #810e05;
+}
+.userInfoProfileButton:hover {
+	/* background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #800b00), color-stop(1, #ff0808) );
+	background:-moz-linear-gradient( center top, #800b00 5%, #ff0808 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#800b00', endColorstr='#ff0808'); */
+	background-color:#FFF;
+	color:#ff0808;
+}.userInfoProfileButton:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+/* Profile Page CSS here */
+.UserUploads{
+	display: block;
+	min-width: 300px;
+	width: 70%;
+	margin-left: 5px;
+	margin-right: 5px;
+	float:left;
+	border: 3px solid red;
+	border-radius: 25px;
+}
+.UserProfile{
+	min-width: 250px;
+	float:left;
+	margin:5px;
+	margin-bottom: 15px;
+	border: 3px solid black; 
+	border-radius: 25px;
+	padding: 5px 10px 5px 5px;
+	background-color: black;
+
+}
+.userInfoProfile{
+	border: medium solid black; 
+	background-color: white; 
+	color: black; 
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	font-weight: bold; 
+	font-size: medium; 
+	 max-width: 300px; width: 100%; min-height: 25px;
+	padding: 5px;
+	margin-bottom:2px;
+	border-radius: 15px;
+	
+}
+ .glyphicon {color:red;}

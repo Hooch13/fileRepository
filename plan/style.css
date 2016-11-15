@@ -1,0 +1,274 @@
+
+	#title{
+		text-align:left;
+		font-size: 25px;
+		color: white;
+		
+	}
+	header{
+		width: 100%;
+		min-width: 580px;
+		margin-left: auto;
+		margin-right: auto;
+		padding:5px;
+	}
+	#head{
+		width: 100%;
+		min-width: 580px;
+	}
+
+#wrapper{
+	width: 90%;
+	max-width: 900px;
+	min-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: black;
+}
+body{
+    font: 20px "Lucida Grande", Tahoma, Verdana, sans-serif;
+    color: #404040;
+	background-color: #222222;  
+}
+
+table{
+	background-color: white;
+	border-radius: 2px;  
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%; 
+	
+} 
+th{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	border: 5px solid red;	
+	font-size: 1.25em;
+}
+
+td{
+	text-align: center;
+	color: black;
+	border-bottom: 5px solid black;
+	width: 33%;
+	
+	
+}
+#recentTable{
+	width: 550px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#personalTable{
+	width: 550px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	
+	
+}
+/* table{
+	width: 90%;
+	
+	border-radius: 2px;  
+	display: block; 
+	margin-left: auto;
+	margin-right: auto;
+}  */
+#InfoTable{
+	width: 100%;
+}
+/* th{
+	text-align: center;
+	color: white;
+	border: 5px solid red;	
+}
+
+td{
+	text-align: center;
+	color: white;
+	border-bottom: 5px solid white;
+	
+} */
+
+#loginHead{
+	max-width:700px;
+	width:100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+}
+.notloggedIn{
+	background-color: red;
+	color: white;
+	
+}
+input[type=text],
+input[type=password]{
+    padding:10px;
+    width:80%;
+	text-align: center;
+	border-left: 3px solid #C3011E;
+   border-right: 3px solid #C3011E;
+   font-size: 16px;
+}
+input[name=Search_basic]{
+	width: 50%;
+	height: .75em;
+	border: 3px solid white;
+}
+input[name=Search_basic_full], input[value=Search]{
+	width: 75%;
+	height: 2em;
+	margin: 3px;
+}
+{
+	width:95%;
+	color: white;
+}
+ 
+#userNotes{
+    font-size:0.7em;
+    text-align:left;
+    padding:10px;
+}
+ 
+#actions{
+    padding:10px;
+}
+ 
+#infoMesssage{
+    padding:10px;
+    background-color:#BDE5F8;
+    color:black;
+    font-size:0.8em;
+}
+ 
+ 
+#successMessage{
+    padding:10px;
+    background-color:green;
+    color:white;
+}
+ 
+#failedMessage{
+    padding:10px;
+    background-color:red;
+    color:white;
+    font-size:15px;
+}
+ 
+#formBody{
+   
+}
+ 
+#loginForm{
+    background-color: #C40018;
+    text-align:center;
+    border:3px solid white;
+	border-radius: 10px;
+    max-width:700px;
+	width:80%;
+    margin:5em auto 0 auto;
+}
+ 
+#formHeader{
+    border-bottom:thin solid gray;
+    padding:10px;
+    background:#E00122;
+	font-size: 15px;
+	color: black;
+	font-weight: bold;
+}
+ 
+#loginForm{
+     
+}
+ 
+.customButton {
+    padding:5px;
+     width: 80%;
+    -moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+    box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+    
+    background-color:#white;
+  
+	border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 3px solid #E00122;
+    border-left: 3px solid #E00122;
+    border-right: 3px solid #E00122;
+    border-top: 3px solid #E00122;
+    
+    display:inline-block;
+    color:black;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #528ecc;
+    cursor:pointer;
+}
+ 
+.customButton:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+    background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+    
+}
+  
+.customButton:active {
+    position:relative;
+    
+}
+
+.viewButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:13px;
+	-moz-border-radius-topleft:13px;
+	border-top-left-radius:13px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:13px;
+	-moz-border-radius-bottomright:13px;
+	border-bottom-right-radius:13px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:3px solid #ff0000;
+	display:inline-block;
+	color:#ff0a0a;
+	font-family:Verdana;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	height:29px;
+	line-height:29px;
+	width:84px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:3px 4px 0px #ffffff;
+}
+.viewButton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.viewButton:active {
+	position:relative;
+	top:1px;
+}
+/* This button was generated using CSSButtonGenerator.com */
